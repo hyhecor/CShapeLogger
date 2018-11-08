@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace Com.Github.CShapeLogger
+namespace Com.github.CShapeLogger
 {
     #region
 
@@ -246,6 +246,10 @@ namespace Com.Github.CShapeLogger
             l.Warning("Fatal");
             l.Error("Fatal");
             l.Fatal("Fatal");
+
+
+            l.TraceSourceSwitchLevel(SourceLevels.All);
+            l.Debugf("Debugf int:{0} DateTime:{1}", 1, DateTime.Now);
         }
     }
 }
