@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace Com.github.CShapeLogger
+namespace Com.Github.CShapeLogger
 {
     #region
 
